@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  .player-info {
+    position: absolute;
+    top: 20vh;
+    right:10vh;
+
+  }
+}
+
+.main .container {
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+button.square {
+  border: 1px solid lightsalmon;
+  background-color: lightseagreen;
+  border-radius: 2px;
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  line-height: 30px;
+  font-size: 30px;
+
+  &:focus {
+    outline: 0;
+  }
+
+  &:hover {
+    background-color: lightcoral;
+  }
+}
+
+.back {
+  border-radius: 2px;
+  height: 50px;
+  width: 50px;
+}
+
